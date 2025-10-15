@@ -57,10 +57,12 @@ h2 {
 
 /* ESTILO PARA EL LOGO */
 #logo {
-    max-width: 180px; /* Ajusta este valor según el tamaño deseado para tu logo */
+    max-width: 180px; 
     height: auto;
-    margin-bottom: 25px; /* Espacio debajo del logo */
-    border-radius: 8px; /* Si quieres un ligero borde redondeado */
+    margin-bottom: 25px; 
+    border-radius: 8px;
+    display: block; 
+    margin: 0 auto; 
 }
 
 /* Estilo para botones de respuesta */
