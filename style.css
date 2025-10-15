@@ -52,6 +52,7 @@ h2 {
 
 #bienvenida {
     display: flex; /* Mostrar la bienvenida por defecto */
+    align-items: center; 
 }
 
 /* ESTILO PARA EL LOGO */
