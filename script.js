@@ -11,32 +11,32 @@ const excursiones = {
     champaqui: {
         nombre: "Cerro Champaquí",
         descripcion: "¡Tu desafío te espera! Una exigente aventura de 3 días para alcanzar el pico más alto. Dificultad: Media-Alta.",
-        link: "https://www.summittrek.com.ar/cerro-champaqui" 
+        link: "https://summittrek.com.ar/cerro-champaqui" 
     },
     losGigantes: {
         nombre: "Los Gigantes",
         descripcion: "Ideal para un fin de semana activo. Dos días explorando formaciones rocosas únicas. Dificultad: Media.",
-        link: "https://www.summittrek.com.ar/los-gigantes" 
+        link: "https://summittrek.com.ar/los-gigantes" 
     },
     puebloEscondido: {
         nombre: "Pueblo Escondido",
         descripcion: "Una caminata accesible de 2 días a un fascinante pueblo minero abandonado. Dificultad: Baja-Moderada.",
-        link: "https://www.summittrek.com.ar/pueblo-escondido" 
+        link: "https://summittrek.com.ar/pueblo-escondido" 
     },
     volcanesPocho: {
         nombre: "Volcanes de Pocho",
         descripcion: "Una inmersión de 3 días para descubrir la zona de volcanes extintos. Naturaleza y geología. Dificultad: Baja-Media.",
-        link: "https://www.summittrek.com.ar/volcanes-de-pocho" 
+        link: "https://summittrek.com.ar/volcanes-de-pocho" 
     },
     laCumbrecita: {
         nombre: "Excursiones de 1 Día en La Cumbrecita",
         descripcion: "Perfecto para una escapada rápida. Recorridos de baja a media dificultad en un entorno alpino. ¡Ideal para desconectar!",
-        link: "https://www.summittrek.com.ar/la-cumbrecita" 
+        link: "https://summittrek.com.ar/la-cumbrecita" 
     },
     fallback: {
          nombre: "Excursión a Medida",
          descripcion: "Tu perfil es único. Contáctanos para armar una aventura personalizada o visita nuestras opciones principales.",
-         link: "https://www.summittrek.com.ar" 
+         link: "https://summittrek.com.ar" 
     }
 };
 
