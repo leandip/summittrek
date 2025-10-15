@@ -1,0 +1,55 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Summittrek - Mi Aventura Ideal</title>
+    <link rel="stylesheet" href="style.css"> 
+</head>
+<body>
+
+<div class="container">
+    <h1>Summittrek | ¿Qué aventura es para mi?</h1>
+
+    <div id="bienvenida" class="pantalla">
+        <p>¡Bienvenido/a! Responde unas preguntas rápidas para descubrir la excursión de Summittrek perfecta para ti.</p>
+        <button class="btn" onclick="iniciarTest()">Empezar Test</button>
+    </div>
+
+    <div id="pregunta1" class="pantalla">
+        <h2>Pregunta 1/3: ¿Cuántos días tienes disponibles para tu aventura?</h2>
+        <button class="btn" data-score="duracion:1">A. Solo tengo un día.</button>
+        <button class="btn" data-score="duracion:2">B. Una escapada de 2 días.</button>
+        <button class="btn" data-score="duracion:3">C. Tengo 3 días para una gran travesía.</button>
+    </div>
+
+    <div id="pregunta2" class="pantalla">
+        <h2>Pregunta 2/3: ¿Cómo describirías tu nivel de actividad física para el trekking?</h2>
+        <button class="btn" data-score="dificultad:baja">A. Bajo. Prefiero algo tranqui y accesible.</button>
+        <button class="btn" data-score="dificultad:media">B. Medio. Me gusta el desafío, pero sin exagerar.</button>
+        <button class="btn" data-score="dificultad:alta">C. Alto. ¡Estoy listo para un gran reto físico!</button>
+    </div>
+
+    <div id="pregunta3" class="pantalla">
+        <h2>Pregunta 3/3: ¿Qué tipo de actividades te atraen más?</h2>
+        <button class="btn" data-score="paisaje:picos">A. Exigencia física y aventura.</button>
+        <button class="btn" data-score="paisaje:historico">B. Pueblos abandonados y cabalgatas.</button>
+        <button class="btn" data-score="paisaje:rocas">C. Formaciones rocosas únicas y actividades de escalada.</button>
+        <button class="btn" data-score="paisaje:geologico">D. Volcanes extintos y relax full.</button>
+    </div>
+
+    <div id="resultado" class="pantalla">
+        <p>¡Felicidades! 🎉</p>
+        <p>Según tus respuestas, tu aventura ideal es:</p>
+        <h2 id="nombre-excursion"></h2>
+        <p id="descripcion-excursion"></p>
+        <a id="link-excursion" href="#" target="_blank" class="btn">IR A NUESTRA WEB</a>
+        <button class="btn" id="btn-reiniciar">Hacer el test de nuevo</button>
+    </div>
+
+</div>
+
+<script src="script.js"></script>
+
+</body>
+</html>
