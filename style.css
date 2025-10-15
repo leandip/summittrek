@@ -54,6 +54,14 @@ h2 {
     display: flex; /* Mostrar la bienvenida por defecto */
 }
 
+/* ESTILO PARA EL LOGO */
+#logo {
+    max-width: 180px; /* Ajusta este valor según el tamaño deseado para tu logo */
+    height: auto;
+    margin-bottom: 25px; /* Espacio debajo del logo */
+    border-radius: 8px; /* Si quieres un ligero borde redondeado */
+}
+
 /* Estilo para botones de respuesta */
 .btn {
     background-color: var(--color-principal);
