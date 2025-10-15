@@ -1,0 +1,108 @@
+/* COLORES DE SUMMITTREK: #0c91a8 (Cian) y #122432 (Azul Oscuro) */
+:root {
+    --color-principal: #0c91a8;
+    --color-secundario: #122432;
+    --color-fondo: #f4f4f4;
+    --color-texto: #333;
+}
+
+body {
+    font-family: 'Arial', sans-serif;
+    background-color: var(--color-fondo);
+    color: var(--color-texto);
+    margin: 0;
+    padding: 0;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    min-height: 100vh;
+    text-align: center;
+}
+
+.container {
+    background-color: #fff;
+    padding: 40px;
+    border-radius: 12px;
+    box-shadow: 0 8px 16px rgba(0, 0, 0, 0.1);
+    max-width: 600px;
+    width: 90%;
+    transition: all 0.5s ease-in-out;
+}
+
+h1 {
+    color: var(--color-secundario);
+    font-size: 1.8em;
+    margin-bottom: 30px;
+    border-bottom: 2px solid var(--color-principal);
+    padding-bottom: 10px;
+}
+
+h2 {
+    color: var(--color-secundario);
+    font-size: 1.4em;
+    margin-bottom: 20px;
+}
+
+/* Estilo para las pantallas (Preguntas y Resultado) */
+.pantalla {
+    display: none;
+    flex-direction: column;
+    gap: 15px;
+}
+
+#bienvenida {
+    display: flex; /* Mostrar la bienvenida por defecto */
+}
+
+/* Estilo para botones de respuesta */
+.btn {
+    background-color: var(--color-principal);
+    color: white;
+    border: none;
+    padding: 15px 25px;
+    text-align: center;
+    text-decoration: none;
+    display: block;
+    font-size: 16px;
+    margin: 10px 0;
+    cursor: pointer;
+    border-radius: 8px;
+    transition: background-color 0.3s ease, transform 0.1s ease, box-shadow 0.3s ease;
+    width: 100%; /* Asegura que los botones ocupen todo el ancho */
+}
+
+.btn:hover {
+    background-color: #086b7c; /* Tono más oscuro del color principal */
+    transform: translateY(-2px);
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
+}
+
+/* Estilo para el resultado final */
+#resultado h2 {
+    color: var(--color-principal);
+    font-size: 2.2em;
+    margin-top: 10px;
+    margin-bottom: 10px;
+}
+
+#resultado p {
+    font-size: 1.1em;
+    margin-bottom: 20px;
+}
+
+#link-excursion {
+    background-color: var(--color-secundario);
+    margin-bottom: 5px;
+}
+
+#link-excursion:hover {
+    background-color: #0a1723;
+}
+
+#btn-reiniciar {
+    background-color: #6c757d;
+}
+
+#btn-reiniciar:hover {
+    background-color: #5a6268;
+}
